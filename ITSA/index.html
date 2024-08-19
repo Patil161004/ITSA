@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITSA Committee Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+    <div id="loading-overlay">
+        <div class="loading-icon">
+            <span>I</span>
+            <span>T</span>
+            <span>S</span>
+            <span>A</span>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="ITSA Logo" height="80">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#events">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Our Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    <section id="home">
+        <div class="container-fluid p-0">
+            <div class="image-slider">
+                <div class="slider-container">
+                    <img src="images/hero-bg.jpg" alt="Slider Image 1">
+                    <img src="images/hero-bg.jpg" alt="Slider Image 2">
+                    <img src="images/hero-bg.jpg" alt="Slider Image 3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">About Us</h2>
+            <p class="lead">
+                ITSA (Information Technology Students Association) is a dynamic committee dedicated to fostering growth and innovation in the field of Information Technology. Our mission is to provide a platform for students to explore, learn, and excel in various aspects of IT.
+            </p>
+            <p>
+                Through workshops, seminars, and hands-on projects, we aim to bridge the gap between academic knowledge and industry requirements. ITSA is committed to creating a vibrant community of tech enthusiasts who are passionate about making a difference in the world through technology.
+            </p>
+        </div>
+    </section>
+
+    <section id="events" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Upcoming Events</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="event-card">
+                        <img src="event1.jpg" alt="Event 1">
+                        <h3>Tech Talk 2024</h3>
+                        <p>Join us for an insightful discussion on emerging technologies.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="event-card">
+                        <img src="event2.jpg" alt="Event 2">
+                        <h3>Hackathon 2024</h3>
+                        <p>Showcase your coding skills in our annual hackathon.</p>
+                        <a href="#" class="btn btn-primary">Register Now</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="event-card">
+                        <img src="event3.jpg" alt="Event 3">
+                        <h3>IT Career Fair</h3>
+                        <p>Connect with top companies and explore career opportunities.</p>
+                        <a href="#" class="btn btn-primary">More Info</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Team</h2>
+            <div class="d-flex justify-content-center mb-4">
+                <div class="team-categories">
+                    <button class="btn btn-category" data-category="Convener">Convener</button>
+                    <button class="btn btn-category active" data-category="Presidents">Presidents</button>
+                    
+                    <button class="btn btn-category" data-category="P.R.O">P.R.O</button>
+                    <button class="btn btn-category" data-category="Technical">Technical</button>
+                    <button class="btn btn-category" data-category="Events">Events</button>
+                    <button class="btn btn-category" data-category="Publicity">Publicity</button>
+                    <button class="btn btn-category" data-category="Content Creation">Content Creation</button>
+                    <button class="btn btn-category" data-category="Documentation">Documentation</button>
+                    <button class="btn btn-category" data-category="Sponsorship">Sponsorship</button>
+                </div>
+            </div>
+            <div class="team-members">
+                <div class="row">
+                    <div class="col-md-4 team-member" data-category="Presidents">
+                        <div class="card">
+                            <img src="images/member1.jpg" class="card-img-top" alt="Rushikesh Bandiwadekar">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Rushikesh Bandiwadekar</h5>
+                                <p class="card-text">President</p>
+                                <a href="#" class="btn btn-primary"><i class="bi bi-linkedin"></i> LinkedIn</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 team-member" data-category="Presidents">
+                        <div class="card">
+                            <img src="images/member2.jpg" class="card-img-top" alt="Sampurna Prabhu">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Sampurna Prabhu</h5>
+                                <p class="card-text">Vice-President</p>
+                                <a href="#" class="btn btn-primary"><i class="bi bi-linkedin"></i> LinkedIn</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 team-member" data-category="Convener">
+                        <div class="card">
+                            <img src="images/member2.jpg" class="card-img-top" alt="Prof. Bhanu Tekwani">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Prof. Bhanu Tekwani</h5>
+                                <p class="card-text">Convener</p>
+                                <a href="#" class="btn btn-primary"><i class="bi bi-linkedin"></i> LinkedIn</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 team-member" data-category="P.R.O">
+                        <div class="card">
+                            <img src="images/member2.jpg" class="card-img-top" alt="Karan Goyal">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Karan Goyal</h5>
+                                <p class="card-text">Public Relations Officer</p>
+                                <a href="#" class="btn btn-primary"><i class="bi bi-linkedin"></i> LinkedIn</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 team-member" data-category="Technical">
+                        <div class="card">
+                            <img src="images/member2.jpg" class="card-img-top" alt="Atharv Patil">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Atharv Patil</h5>
+                                <p class="card-text">Technical Head</p>
+                                <a href="#" class="btn btn-primary"><i class="bi bi-linkedin"></i> LinkedIn</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 team-member" data-category="Technical">
+                        <div class="card">
+                            <img src="images/member2.jpg" class="card-img-top" alt="Soham Mhatre">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Soham mhatre</h5>
+                                <p class="card-text">Technical Co-Head</p>
+                                <a href="#" class="btn btn-primary"><i class="bi bi-linkedin"></i> LinkedIn</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 team-member" data-category="Technical">
+                        <div class="card">
+                            <img src="images/member2.jpg" class="card-img-top" alt="Aman Singh">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Aman Singh</h5>
+                                <p class="card-text">Technical Co-Head</p>
+                                <a href="#" class="btn btn-primary"><i class="bi bi-linkedin"></i> LinkedIn</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add more team members here, changing the data-category as needed -->
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="contact" class="py-5 bg-light contact-section">
+        <div class="container">
+            <h2 class="text-center mb-5">Get in Touch</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4 contact-details">
+                    <h3>Location</h3>
+                    <p>Vidyalankar Institute of Technology, Wadala (E), Mumbai - 400037</p>
+                    <div id="map" class="rounded shadow-sm">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1885.9786966006764!2d72.86969633859613!3d19.021599045542978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf3949dda405%3A0xefd46c9d73152f82!2sVIDYALANKAR%20INSTITUTE%20OF%20TECHNOLOGY%2C%20Mumbai%2C%20Maharashtra%20400037!5e0!3m2!1sen!2sin!4v1724092507989!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4 contact-details">
+                    <h3>Contact Details</h3>
+                    <p><strong>Email:</strong> info@itsa.edu</p>
+                    <p><strong>Phone:</strong> (123) 456-7890</p>
+                    <h3 class="mt-5">Connect with Us</h3>
+                    <div class="social-media-icons">
+                        <a href="https://www.linkedin.com" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.whatsapp.com" target="_blank" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 ITSA. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
